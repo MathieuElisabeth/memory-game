@@ -11,7 +11,7 @@ Play this game [here](http://mathieuelisabeth.github.io/memory-game)
 - You have to find all the pairs
 - You have 15 tries 
 - Every time you find all the pairs you get +1 to your score
--If you lose once your score drops to 0
+- If you lose once your score drops to 0
 
 Try to have the highest score.
 
