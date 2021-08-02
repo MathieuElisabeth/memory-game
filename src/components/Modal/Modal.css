@@ -1,0 +1,69 @@
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  z-index: 5;
+}
+
+.Modal-bg {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  opacity: 0.55;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.Modal-text {
+  display: flex;
+  color: black;
+  margin: 0.5rem 0 2rem;
+  justify-content: center;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.Btn-Container {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.Btn-Restart {
+  display: inline-flex;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.Btn-Restart {
+  background-color: #519de0;
+  transition: all ease-out .3s;
+}
+
+.Btn-Restart:hover {
+  background-color: #aca8db;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .ModalContainer {
+    width: 250px;
+  }
+
+}
